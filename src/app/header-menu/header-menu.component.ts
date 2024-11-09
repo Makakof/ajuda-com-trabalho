@@ -1,5 +1,5 @@
 import { NgOptimizedImage } from '@angular/common';
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component } from '@angular/core';
 import {MatListModule} from '@angular/material/list';
 
 @Component({

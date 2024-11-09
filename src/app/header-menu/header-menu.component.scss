@@ -1,27 +1,48 @@
-div{
+.menu{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.cabecalho{
+  background-color: red;
+  width: 100%;
+  height: 80px;
+}
+
+
+.categorias{
   background-color: #F26530;
   width: 100%;
   height: 80px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
 
-  ul
-  {
+
+  ul{
     font-family: "Inria Sans",sans-serif;
     color: white;
     display: flex;
     list-style: none;
-    font-size: 36px;
-    height: 80px;
     align-items: center;
-    justify-content: space-evenly;
     padding-inline-start: 0;
 
-    li
-    {
+    li{
       text-align: center;
       text-transform: uppercase;
       width: 16%;
+      font-size: 36px;
+      display: flex;
       flex-direction: row;
       flex: 1;
+      justify-content: center;
+
+      img{
+        width: 60px;
+        height: 55px;
+      }
     }
   }
 }
