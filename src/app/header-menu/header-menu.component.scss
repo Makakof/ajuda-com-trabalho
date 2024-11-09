@@ -1,0 +1,27 @@
+div{
+  background-color: #F26530;
+  width: 100%;
+  height: 80px;
+
+  ul
+  {
+    font-family: "Inria Sans",sans-serif;
+    color: white;
+    display: flex;
+    list-style: none;
+    font-size: 36px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-inline-start: 0;
+
+    li
+    {
+      text-align: center;
+      text-transform: uppercase;
+      width: 16%;
+      flex-direction: row;
+      flex: 1;
+    }
+  }
+}
